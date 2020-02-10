@@ -1,0 +1,18 @@
+[include]
+  path = .gitconfig.local
+[color]
+  ui = true
+[core]
+  excludesfile = ~/.gitignore.global
+  precomposeUnicode = true
+[apply]
+  whitespace = nowarn
+[credential]
+  helper = osxkeychain
+[push]
+  default = current
+[mergetool]
+	keepBackup = false
+	keepTemporaries = false
+[merge]
+  tool = vimdiff
